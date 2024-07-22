@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container img{
+    width: 250px;
+}
+.collapse{
+    margin-left: 400px;
+}
+
+.collapse a{
+    margin-left: 15px;
+    transition: 0.7s;
+}
+.collapse a:hover{
+    transition: 0.7s;
+    color: #FCC822;
+}
+.collapse .dropdown{
+    margin-left: 20px;
+}
+#userimage{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-left: 35px;
+}
+.dropdown-menu li a{
+    margin-left: 35px;
+}
+
+.dropdown-menu li a:hover{
+    background-color: #fff;
+    width: 50px;
+    color: #FCC822;
+}
+.head{
+    position: relative;left: 32%;
+    margin-top: 50px;
+    width: 500px;
+    height: 70px;
+    text-align: center;
+    background-color: #FCC822;
+    color: #fff;
+    border-radius: 20px;
+
+
+}
+.select{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    gap: 30px;
+}
+.js{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+}
+.js h1{
+
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.js img{
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    filter: drop-shadow(10px 10px 10px #e4c767);
+}
+.HTML{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+}
+.HTML h1{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.HTML img{
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    filter: drop-shadow(20px 20px 20px #a01b03);
+}
+.CSS{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+}
+.CSS h1{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.CSS img{
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    filter: drop-shadow(20px 20px 20px #1a0ebe);
+}
+.Python{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+}
+.Python h1{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.Python img{
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    filter: drop-shadow(20px 20px 20px #ccc013);
+}
+.Java{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+}
+.Java h1{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.Java img{
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    filter: drop-shadow(20px 20px 20px #a01b03);
+}
+.C{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+}
+.C h1{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.C img{
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    filter: drop-shadow(20px 20px 20px #1a0ebe);
+}
+.appear{
+    text-align: center;
+    font-weight: 400;
+    transition: 0.5s;
+    display: none;
+}
+.appear:hover{
+    color: #c79b0b;
+    text-decoration: none;
+    transition: 0.5s;
+    
+}
+
+.langauge:hover .appear{
+    display: block;
+}
+.langauge:hover span{
+    display: none;
+    
+} 
+

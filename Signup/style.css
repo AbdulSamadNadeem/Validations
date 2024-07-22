@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main{
+    display: flex;
+}
+
+.left{
+   display: flex;
+   justify-content: center;
+   width: 1200px;
+   background-color: #fff;
+   height: 100vh;
+}
+
+.right{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 800px;
+   background-color: #FFFFFF69;
+   height: 100vh;
+}
+.centre{
+    height: 100vh;
+    width: 1px;
+    background-color: black;
+}
+.greet {
+
+     margin-top: 40px;
+     width: 300px;
+     margin-left: 10px; 
+}
+.greet img{
+    margin-left: -60px;
+    width: 400px;
+}
+.greet form{
+    margin-top: 80px;
+}
+.main input{
+    width: 447.76px;
+    color: #FCC822;
+    font-size: 10.45px;
+    border-radius: 1px;
+    height: 40px;
+    margin-left: -50px;
+}
+.main label{
+    margin-left: -50px;
+}
+.main input:focus {
+    box-shadow: 0 0 5px 2px yellow;
+    border-color: yellow; 
+}
+
+.main .btn2{
+    margin-left: 50px;
+    outline: none;
+    width: 218.73px;
+    height: 50.78px;
+    color: #FCC822;
+    background-color: #fff;
+    border: 1px solid #FCC822;
+    transition: 1s;
+    transform: translateY(20px)
+}
+
+.main .btn2:hover{
+    color: #fff;
+    background-color: #FCC822;
+    border: 1px solid #FCC822;
+    transition: 1s;
+    transform: translateY(20px)
+}
+
+#error{
+    text-align: center;
+    color: red;
+}
+.main #heading{
+    margin-left: -50px;
+    font-weight: 100;
+}
+.main #isadmin{
+    width: 45px;
+    font-size: 20px;
+    margin-left: -50px;
+}

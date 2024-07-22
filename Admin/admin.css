@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type:none ;
+}
+
+.container img{
+    width: 250px;
+}
+.collapse{
+    margin-left: 400px;
+}
+
+.collapse a{
+    margin-left: 15px;
+    transition: 0.7s;
+}
+.collapse a:hover{
+    transition: 0.7s;
+    color: #FCC822;
+}
+.collapse .dropdown{
+    margin-left: 20px;
+}
+#userimage{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-left: 35px;
+}
+.dropdown-menu li a{
+    margin-left: 35px;
+}
+
+.dropdown-menu li a:hover{
+    background-color: #fff;
+    width: 50px;
+    color: #FCC822;
+}
+.welcome{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 400;
+    color: #353434;
+}
+#admin{
+    color: #FCC822;
+}
